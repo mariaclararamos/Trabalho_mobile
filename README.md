@@ -15,3 +15,43 @@ Autonomia Real: Queremos que você tome decisões baseadas em planos, não em i
 Futuro Sustentável: Aprender a lidar com 100 reais hoje é o que vai te ensinar a gerir 10 mil amanhã. O hábito começa agora.
 Nossa missão é transformar a relação do estudante com o dinheiro: de uma fonte de ansiedade para um degrau rumo aos seus sonhos.
 <img src=""C:\Temp\Green and White Modern Landing Page Wireframe Website UI Prototype.png"">
+
+~~~
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UNICASH</title>
+</head>
+
+<BODY>
+    <HEADER>
+        <nav>
+            <ul>
+                <a href="#">Assinaturas</a>
+                <a href="#">Planilhas</a>
+                <a href="#">Meus cursos</a>
+                <button CLASS="ENTRAR">ENTRAR</button>
+            </ul>
+        </nav>
+    
+    </HEADER>
+<SECTION> 
+    <img src="https://img.freepik.com/vetores-gratis/contorno-plano-do-glifo-do-banco_78370-4516.jpg?semt=ais_rp_progressive&w=740&q=80" alt="por_do_sol">
+</SECTION>
+
+<section>
+    <h2>QUEM SOMOS?</h2>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis laborum tenetur alias in assumenda aliquid sunt fuga dignissimos maxime molestias eligendi, consequatur provident neque, recusandae placeat, temporibus est quisquam necessitatibus.
+    </p>
+    <div>
+        <img src="https://eucontador.com.br/wp-content/uploads/2015/11/financas-01-3.png" alt="financas1">
+        <img src="https://cdn.izap.com.br/sintibref-ba.org.br/plus/images?src=educacao-financeira/sintibref---ba.png&width=400&mode=max&v=1" alt="financas2">
+
+    </div>
+</section>
+    
+</BODY>
+~~~~
