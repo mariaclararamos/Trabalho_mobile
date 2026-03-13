@@ -57,6 +57,7 @@ Nossa missão é transformar a relação do estudante com o dinheiro: de uma fon
 </BODY>
 ~~~~
 #EXPLICAÇÃO DO CÓDIGO
+
 Header -> Usamos o <nav> para a criação de um menu lateral, com o "href" para posteriormente incluirmos o caminho para a próxima página, a tag <_button_> para o botão onde o aluno pode acessar a sua conta.
 Section1 -> Adicionamos o uma imagem ficticia para representar o nosso painel principal, onde terá uma imagem desenvolvida pelo grupo.
 Section2 -> Textos informativos sobre a plataforma e o negócio, além de imagens em div ilustrativas para ambientar o usuário
