@@ -2,7 +2,7 @@ Maria Clara torres RA: 10426069
 Paulo Cesar Carvalho de Andrade RA: 10420708
 Valério dos Santos Cavalcanti RA: 10410778
 
-#POR QUE O UNICASH É FEITO ESPECIALMENTE PARA JOVENS?
+# POR QUE O UNICASH É FEITO ESPECIALMENTE PARA JOVENS?
 Porque o futuro financeiro do Brasil está nas mãos de quem tem entre 18 e 25 anos hoje - e a maioria ainda não recebeu as ferramentas certas para dominá-lo.
 Quando falamos de educação financeira no Brasil, a conversa geralmente é direcionada a adultos que já têm dívidas acumuladas, hipoteca, filhos ou carreira consolidada. Mas e quem está começando agora? Quem está na faculdade, recebendo mesada ou primeiro salário de estágio, lidando com cartão de crédito pela primeira vez, morando na república ou tentando sair da casa dos pais?
 A vida de estudante é uma constante equilibrista: de um lado, os prazos, as provas e os estágios; do outro, o desafio de fazer o dinheiro durar até o dia 30. Sabemos que a educação financeira raramente faz parte da grade curricular, mas ela é a ferramenta que decide se você vai terminar o semestre no azul ou no sufoco.
@@ -57,4 +57,6 @@ Nossa missão é transformar a relação do estudante com o dinheiro: de uma fon
 </BODY>
 ~~~~
 #EXPLICAÇÃO DO CÓDIGO
-##
+## Header -> Usamos o <nav> para a criação de um menu lateral, com o <a href> para posteriormente incluirmos o caminho para a próxima página, a tag <button> para o botão onde o aluno pode acessar a sua conta.
+## Section1 -> Adicionamos o uma imagem ficticia para representar o nosso painel principal, onde terá uma imagem desenvolvida pelo grupo.
+## Section2 -> Textos informativos sobre a plataforma e o negócio, além de imagens em div ilustrativas para ambientar o usuário
