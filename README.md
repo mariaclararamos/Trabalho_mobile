@@ -350,4 +350,301 @@ Código CSS
 </html>
 CÓDIGO CSS
 
+**TUTORIAL Javascript**
+
+HTML
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EduTech</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+
+  <!-- Ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <nav>
+      <div class="logo">
+        <i class="fas fa-graduation-cap"></i>
+        EduTech
+      </div>
+
+      <div class="nav-links">
+        <a href="#">Início</a>
+        <a href="#quem-somos">Quem Somos</a>
+        <a href="#">Cursos</a>
+        <a href="#">Contato</a>
+        <a href="#" class="btn-entrar">Entrar</a>
+        <button onclick="mudarTema()" class="btn-tema">Tema</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>
+        Transforme seu
+        <span>Futuro Hoje</span>
+      </h1>
+      <p>
+        Aprenda tecnologia de forma prática e moderna com os melhores cursos online.
+      </p>
+      <a href="#" class="btn-comecar">Começar Agora</a>
+    </div>
+  </section>
+
+  <!-- QUEM SOMOS -->
+  <section class="quem-somos" id="quem-somos">
+    <h2>Quem Somos</h2>
+
+    <div class="content-wrapper">
+      
+      <div class="text-side">
+        <h3>Educação que transforma vidas</h3>
+        <p>
+          Somos uma plataforma focada em ensinar tecnologia de forma simples,
+          prática e acessível para todos.
+        </p>
+        <p>
+          Nosso objetivo é preparar você para o mercado de trabalho com habilidades reais.
+        </p>
+      </div>
+
+      <div class="images-side">
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" alt="">
+        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" alt="">
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="">
+        <img src="https://images.unsplash.com/photo-1581090700227-4c4c3f1b1f62" alt="">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- DICAS -->
+  <section class="dicas">
+    <h2>Dica Financeira</h2>
+    <p id="dica">Clique no botão para gerar uma dica</p>
+    <button onclick="gerarDica()" class="btn-dica">Gerar Dica</button>
+  </section>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>
+
+CSS
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background: #0f0f1a;
+  color: #e0e0ff;
+  line-height: 1.6;
+  margin: 0;
+  transition: all 0.3s ease;
+}
+
+/* Tema alternativo */
+.dark {
+  background: #ffffff;
+  color: #0a0a14;
+}
+
+/* Header */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(10px);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1.2rem 5%;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #00ff96;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.nav-links a {
+  color: #d0d0ff;
+  text-decoration: none;
+}
+
+.btn-entrar {
+  background: #00ff96;
+  color: black;
+  padding: 0.6rem 1.5rem;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-comecar {
+    background: #00ff96;
+    color: black;
+    padding: 0.6rem 1.5rem;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+  }
+
+.btn-dica {
+    background: #00ff96;
+    color: black;
+    padding: 0.6rem 1.5rem;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+/* Hero */
+.hero {
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.85)),
+              url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1600') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  color: white;
+}
+
+.hero span {
+  color: #00ff96;
+}
+
+/* Quem Somos */
+.quem-somos {
+  padding: 120px 5%;
+  background: #0a0a14;
+}
+
+.content-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.images-side img {
+  width: 100%;
+  border-radius: 10px;
+}
+.btn-tema{
+    background: #00ff96;
+    color: black;
+    padding: 0.6rem 1.5rem;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+
+}
+/* Dicas */
+.dicas {
+  padding: 80px 5%;
+  text-align: center;
+  background: #0a0a14;
+}
+
+.dicas h2 {
+  color: #00ff96;
+  margin-bottom: 20px;
+}
+
+.dicas p {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+/* Responsivo */
+@media (max-width: 900px) {
+  .content-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+.light {
+    background: white;
+    color: white;
+  }
+  
+  /* textos */
+  .light .text-side h3{
+    color:#00ff96
+  }
+  
+  .light .text-side p,
+  .light .nav-links a {
+    color: black;
+  }
+  
+  /* header */
+  .light header {
+    background: rgba(255, 255, 255, 0.9);
+  }
+
+  .light .quem-somos{
+    background: rgba(255, 255, 255, 0.9);
+  }
+
+  
+  /* botão */
+  .light .btn-entrar {
+    background: black;
+    color:white ;
+  }
+
+  JS
+
+  function mudarTema() {
+    document.body.classList.toggle("light");
+  }
+  
+  const dicas = [
+    "Evite gastar mais do que ganha",
+    "Guarde pelo menos 10% do que recebe",
+    "Cuidado com o cartão de crédito",
+    "Tenha uma reserva de emergência"
+  ];
+  
+  function gerarDica() {
+    let random = Math.floor(Math.random() * dicas.length);
+    document.getElementById("dica").textContent = dicas[random];
+  }
+
+  Adicionamos a mudança de tema do site através da função "mudar tema", oferencendo ao usuário a opção de ver o site no modo light, junto com mudança no css.
+  Além disso, incluimos um gerados de dicas financeiras utilizando a função function gerarDica() para que o usuário se sinta motivado durante sua experiência no site.
+
 
