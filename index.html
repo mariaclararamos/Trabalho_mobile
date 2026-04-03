@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EduTech</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">
+        <i class="fas fa-graduation-cap"></i>
+        EduTech
+      </div>
+
+      <div class="nav-links">
+        <a href="#">Início</a>
+        <a href="#quem-somos">Quem Somos</a>
+        <a href="#">Cursos</a>
+        <a href="#">Contato</a>
+      </div>
+      <div class="botoes">
+      <button class="btn-entrar">Entrar</button>
+        <button onclick="mudarTema()" class="btn-tema">Tema</button>
+      <div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>
+        Transforme seu
+        <span>Futuro Hoje</span>
+      </h1>
+      <p>
+        Aprenda tecnologia de forma prática e moderna com os melhores cursos online.
+      </p>
+      <button class="btn-comecar">Começar Agora</button>
+    </div>
+  </section>
+
+  <section class="quem-somos" id="quem-somos">
+    <h2>Quem Somos</h2>
+
+    <div class="content-wrapper">
+      
+      <div class="text-side">
+        <h3>Educação que transforma vidas</h3>
+        <p>
+          Somos uma plataforma focada em ensinar tecnologia de forma simples,
+          prática e acessível para todos.
+        </p>
+        <p>
+          Nosso objetivo é preparar você para o mercado de trabalho com habilidades reais.
+        </p>
+      </div>
+
+      <div class="images-side">
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" alt="">
+        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" alt="">
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="">
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71" alt="">
+      </div>
+
+    </div>
+  </section>
+
+  <section class="dicas">
+    <h2>Dica Financeira</h2>
+    <p id="dica">Clique no botão para gerar uma dica</p>
+    <button onclick="gerarDica()" class="btn-dica">Gerar Dica</button>
+  </section>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
