@@ -15,7 +15,7 @@ Redução do Estresse: Um estudante preocupado com boletos não consegue focar 
 Autonomia Real: Queremos que você tome decisões baseadas em planos, não em impulsos ou falta de opção.
 Futuro Sustentável: Aprender a lidar com 100 reais hoje é o que vai te ensinar a gerir 10 mil amanhã. O hábito começa agora.
 Nossa missão é transformar a relação do estudante com o dinheiro: de uma fonte de ansiedade para um degrau rumo aos seus sonhos.
-![Descrição da imagem]("C:\Users\10426069\Downloads\Green and White Modern Landing Page Wireframe Website UI Prototype.png")
+![Descrição da imagem](Green and White Modern Landing Page Wireframe Website UI Prototype.png)
 
 # CÓDIGO E TUTORIAL
 ~~~
