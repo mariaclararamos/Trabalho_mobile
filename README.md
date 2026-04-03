@@ -96,7 +96,7 @@ h1: Define o título principal com letras gigantes para causar impacto.
 
 Código CSS
 
-
+~~~~
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -643,7 +643,7 @@ nav {
     let random = Math.floor(Math.random() * dicas.length);
     document.getElementById("dica").textContent = dicas[random];
   }
-
+~~~~~
   Adicionamos a mudança de tema do site através da função "mudar tema", oferencendo ao usuário a opção de ver o site no modo light, junto com mudança no css.
   Além disso, incluimos um gerados de dicas financeiras utilizando a função function gerarDica() para que o usuário se sinta motivado durante sua experiência no site.
 
