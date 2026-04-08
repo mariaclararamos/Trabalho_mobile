@@ -7,17 +7,17 @@ Felipe Souza RA: 10322325
 Somos a geração mais conectada da história, mas ainda muito desconectada do dinheiro.
 Temos o celular na mão o tempo todo, acessamos qualquer informação em segundos, usamos apps de delivery, transporte, streaming e redes sociais o dia inteiro. Porém, a maioria de nós entre 18 e 25 anos não sabe o que é Tesouro Selic, ETF, ações, fundos imobiliários ou como começar a investir com pouco dinheiro. O mercado financeiro ainda parece um clube exclusivo para adultos com muito capital, terno e experiência.
 Enquanto isso, o futuro financeiro do Brasil está nas nossas mãos. É a nossa geração que vai construir riqueza, tomar as grandes decisões de investimento e definir o cenário econômico das próximas décadas. No entanto, a maioria ainda não recebeu as ferramentas certas para dominar o próprio dinheiro.
-A educação financeira tradicional no Brasil foca em adultos já endividados, com hipoteca, filhos e carreira consolidada. E nós? Estamos na faculdade, recebendo mesada ou primeiro salário de estágio, usando cartão de crédito pela primeira vez, morando em república ou tentando sair da casa dos pais.
+A educação financeira tradicional no Brasil foca em adultos já endividados, com hipoteca, filhos e carreira consolidada. E nós? 
 A vida de estudante é um equilíbrio constante: provas, prazos, estágios e a eterna luta para fazer o dinheiro durar até o dia 30. Surgem as faturas do cartão, o aluguel da república e aquela dúvida cruel: “Dá pra ir no rolê ou o café da semana que vem está em risco?”.
-O problema que resolvemos
+## O problema que resolvemos
 Para muitos jovens, a faculdade é o primeiro contato real com a gestão financeira da própria vida. Sem orientação, a liberdade da juventude facilmente vira endividamento precoce. No Brasil, apenas 3 em cada 10 jovens entre 18 e 24 anos se consideram financeiramente alfabetizados. A educação financeira praticamente não existe na grade curricular das universidades, e o resultado é uma geração entrando no mercado de trabalho já com hábitos ruins, score de crédito baixo e oportunidades de investimento perdidas.
-Nosso propósito
+## Nosso propósito
 O EduTech nasceu para quebrar essa barreira e democratizar o acesso à inteligência financeira. Não queremos apenas explicar o que é juro composto — queremos que você aprenda a usar ele a seu favor desde os primeiros R$ 100.
 Focamos no público universitário por três motivos principais:
 Redução de estresse e saúde mental: Um estudante preocupado com boletos não consegue focar nas aulas. Equilíbrio financeiro traz tranquilidade.
 Autonomia real: Tomar decisões baseadas em planejamento, e não em impulso ou falta de opção.
 Futuro sustentável: Quem aprende a fazer 100 reais renderem hoje saberá fazer 10 mil, 100 mil e 1 milhão renderem amanhã. O hábito começa agora.
-Por que esse tema é tão poderoso?
+## Por que esse tema é tão poderoso?
 Porque estamos vivendo uma oportunidade histórica. Nunca uma geração teve tanto acesso à tecnologia e à informação quanto a nossa. O problema não é mais falta de acesso, mas falta de conteúdo certo, na linguagem certa e no momento certo da vida.
 O EduTech transforma essa realidade com conteúdos práticos, ferramentas simples e uma comunidade de jovens que estão construindo riqueza juntos, sem complicação e sem gatekeeping.
 Nossa missão é mudar a relação dos jovens com o dinheiro: de fonte de ansiedade e exclusão para um poderoso degrau rumo à independência financeira, realização de sonhos e construção de patrimônio desde cedo.
@@ -123,31 +123,12 @@ Section2 -> Textos informativos sobre a plataforma e o negócio, além de imagen
 
 
 **TUTORIAL CSS**
-
-1. Seletores Universais e de Base (*, body)
-* (Asterisco): Serve para "limpar" as configurações padrão do navegador. Ele zera margens e garante que o tamanho dos elementos seja calculado corretamente.
-body: Define as regras gerais para toda a página, como o tipo de letra (fonte), a cor do texto (branco) e a cor de fundo (preto).
-
-2. O Topo da  Página(header, nav, .logo)
-header: É o "container" do topo. O código faz com que ele fique fixo no topo da tela e tenha um efeito de vidro embaçado.
-.logo: Estiliza o nome da marca, deixando-o grande e na cor verde neon.
-nav e ul: Organizam os links do menu em linha (um ao lado do outro) e removem as "bolinhas" de lista.
-.btn-entrar: Cria o visual de um botão de destaque, com bordas arredondadas e sombra.
-
-3. A Primeira Impressão (.hero, h1, .highlight)
-.hero: Cria uma seção que ocupa toda a altura da tela (100vh) com uma imagem de fundo.
-h1: Define o título principal com letras gigantes para causar impacto.
-.highlight: Uma classe usada para colorir apenas uma palavra específica do título em verde.
-
-4. Seção de Conteúdo (.quem-somos, .container, .images)
-.quem-somos: Define o espaçamento (respiro) entre essa seção e a anterior.
-.container: Usa o comando grid para dividir a tela em duas colunas: uma para o texto e outra para as fotos.
-.images img: Estiliza as fotos para que tenham cantos arredondados e ganhem um efeito de "zoom" ao passar o mouse.
-
-5. Adaptação para Celulares (@media)
-@media: Não é uma tag de conteúdo, mas uma regra de adaptação. Ela diz ao navegador: "Se a tela for pequena, mude o layout de duas colunas para uma só", garantindo que o site funcione bem em qualquer aparelho.
-
-
+Principais pontos do nosso CSS
+1. Body -> Configurações universais voltadas para todo o body do projeto delimitando a fonte, a cor do background.
+2. Nav -> Configurações do nosso Menu prinicpal, queriamos que ele fosse alinhado com nosso logo e que ficasse no centro do nosso código .
+3. hero -> imagem usada para o background do nosso header. 
+4. images-> usamos o content-wrapper afim de criar um mosaico com as fotos do contexto do nosso projeto.
+5. light -> parametros para criação de um tema claro, mudando diversos parametros como botões e backgrounds.
 Código CSS
 
 ~~~~
@@ -677,24 +658,5 @@ nav {
 ~~~~~
   Adicionamos a mudança de tema do site através da função "mudar tema", oferencendo ao usuário a opção de ver o site no modo light, junto com mudança no css.
   Além disso, incluimos um gerados de dicas financeiras utilizando a função function gerarDica() para que o usuário se sinta motivado durante sua experiência no site.
-
-Resumo do código:
-
-Este projeto consiste em uma plataforma institucional focada em educação financeira. O desenvolvimento foi dividido em três camadas fundamentais:
-​1. Estrutura de Conteúdo (HTML5)
-​O site foi construído utilizando HTML5 semântico, priorizando a acessibilidade e a organização hierárquica. As principais seções incluem:
-​Cabeçalho de Navegação: Menu fixo com links de ancoragem e chamadas para ação (CTA).
-​Seção Hero: Destaque principal com proposta de valor clara e fundo visual de alto impacto.
-​Seção Institucional: Divisão em grid para apresentar a missão da empresa e galeria visual.
-​Módulo de Interação: Área dedicada a dicas dinâmicas para o usuário.
-​2. Design e Identidade Visual (CSS3)
-​A estética do projeto segue o estilo Modern Dark Mode, comum em interfaces de tecnologia e finanças.
-​Layout Responsivo: Implementação de Flexbox e CSS Grid, garantindo que a interface se adapte perfeitamente a dispositivos móveis e desktops.
-​Estilização Avançada: Uso de filtros de desfoque (backdrop-filter) para o menu e efeitos de transição suave em botões e imagens.
-​Temas Customizáveis: Arquitetura de classes preparada para alternância de cores (Light/Dark mode) sem necessidade de recarregar a página.
-​3. Dinâmica e Funcionalidade (JavaScript)
-​A lógica de programação foi aplicada para tornar a experiência do usuário menos estática:
-​Gerenciador de Temas: Manipulação do DOM para alternar a classe de estilo do corpo da página em tempo real.
-​Motor de Conteúdo Aleatório: Algoritmo que seleciona dicas financeiras a partir de um conjunto de dados (array), garantindo que o usuário receba informações diferentes a cada interação.
 
 
