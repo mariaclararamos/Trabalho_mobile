@@ -114,10 +114,24 @@ Ele começa agora, enquanto os erros ainda custam pouco e as oportunidades são 
 
 #EXPLICAÇÃO DO CÓDIGO
 
-Header -> Usamos o <nav> para a criação de um menu lateral, com o "href" para posteriormente incluirmos o caminho para a próxima página, a tag <_button_> para o botão onde o aluno pode acessar a sua conta.
-Section1 -> Adicionamos o uma imagem ficticia para representar o nosso painel principal, onde terá uma imagem desenvolvida pelo grupo.
-Section2 -> Textos informativos sobre a plataforma e o negócio, além de imagens em div ilustrativas para ambientar o usuário
+1. A parte de configuração (head) prepara o site para funcionar corretamente. Ela permite o uso de acentos, adapta a página para celulares, define o nome que aparece na aba do navegador e conecta os arquivos externos: o CSS, que cuida da aparência, e o JavaScript, que adiciona funcionalidades.
 
+2. O corpo da página (body) é onde fica tudo que o usuário realmente vê. A partir daí o site começa a ser montado visualmente.
+
+3. O cabeçalho (header com nav) representa o topo do site. Ele organiza a navegação, contendo a logo, os links do menu e os botões. A função principal dessa parte é permitir que o usuário se localize e navegue entre as seções.
+
+4. A área de navegação (nav-links) reúne os links clicáveis do menu. Esses links permitem que o usuário vá para diferentes partes do site, como a seção “Quem Somos”.
+
+5. O botão de tema é uma parte interativa. Quando o usuário clica nele, uma função em JavaScript é executada, normalmente para alterar o visual do site, como trocar entre modo claro e escuro.
+
+6. A seção principal (hero) é a primeira parte visível do site. Ela tem a função de chamar a atenção do usuário, apresentando uma mensagem forte e um botão que incentiva uma ação, como começar a usar a plataforma.
+
+7. A seção “Quem Somos” serve para apresentar a empresa. Nela, o site explica sua proposta, objetivo e o que oferece ao usuário, ajudando a gerar confiança.
+Dentro dessa seção, há uma divisão entre texto e imagens. O texto explica a ideia da plataforma, enquanto as imagens ajudam a tornar a página mais visual e atrativa.
+
+8. A seção de dicas é a parte interativa do site. Ela começa com um texto padrão, mas esse texto pode ser alterado dinamicamente. O botão de gerar dica executa uma função em JavaScript que muda o conteúdo do texto, mostrando uma nova dica para o usuário.
+
+Por fim, o código conecta um arquivo JavaScript adicional, que contém as funções usadas nos botões, e encerra a estrutura do site.
 
 
 
