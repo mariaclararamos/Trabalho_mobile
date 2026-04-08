@@ -29,42 +29,87 @@ Ele começa agora, enquanto os erros ainda custam pouco e as oportunidades são 
 # CÓDIGO E TUTORIAL
 ~~~
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>UNICASH</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EduTech</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+
 </head>
+<body>
 
-<BODY>
-    <HEADER>
-        <nav>
-            <ul>
-                <a href="#">Assinaturas</a>
-                <a href="#">Planilhas</a>
-                <a href="#">Meus cursos</a>
-                <button CLASS="ENTRAR">ENTRAR</button>
-            </ul>
-        </nav>
-    
-    </HEADER>
-<SECTION> 
-    <img src="https://img.freepik.com/vetores-gratis/contorno-plano-do-glifo-do-banco_78370-4516.jpg?semt=ais_rp_progressive&w=740&q=80" alt="por_do_sol">
-</SECTION>
+  <header>
+    <nav>
+      <div class="logo">
+        <i class="fas fa-graduation-cap"></i>
+        EduTech
+      </div>
 
-<section>
-    <h2>QUEM SOMOS?</h2>
-    <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis laborum tenetur alias in assumenda aliquid sunt fuga dignissimos maxime molestias eligendi, consequatur provident neque, recusandae placeat, temporibus est quisquam necessitatibus.
-    </p>
-    <div>
-        <img src="https://eucontador.com.br/wp-content/uploads/2015/11/financas-01-3.png" alt="financas1">
-        <img src="https://cdn.izap.com.br/sintibref-ba.org.br/plus/images?src=educacao-financeira/sintibref---ba.png&width=400&mode=max&v=1" alt="financas2">
+      <div class="nav-links">
+        <a href="#">Início</a>
+        <a href="#quem-somos">Quem Somos</a>
+        <a href="#">Cursos</a>
+        <a href="#">Contato</a>
+      </div>
+      <div class="botoes">
+      <button class="btn-entrar">Entrar</button>
+        <button onclick="mudarTema()" class="btn-tema">Tema</button>
+      <div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>
+        Transforme seu
+        <span>Futuro Hoje</span>
+      </h1>
+      <p>
+        Aprenda tecnologia de forma prática e moderna com os melhores cursos online.
+      </p>
+      <button class="btn-comecar">Começar Agora</button>
+    </div>
+  </section>
+
+  <section class="quem-somos" id="quem-somos">
+    <h2>Quem Somos</h2>
+
+    <div class="content-wrapper">
+      
+      <div class="text-side">
+        <h3>Educação que transforma vidas</h3>
+        <p>
+          Somos uma plataforma focada em ensinar tecnologia de forma simples,
+          prática e acessível para todos.
+        </p>
+        <p>
+          Nosso objetivo é preparar você para o mercado de trabalho com habilidades reais.
+        </p>
+      </div>
+
+      <div class="images-side">
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" alt="">
+        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" alt="">
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="">
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71" alt="">
+      </div>
 
     </div>
-</section>
-    
-</BODY>
+  </section>
+
+  <section class="dicas">
+    <h2>Dica Financeira</h2>
+    <p id="dica">Clique no botão para gerar uma dica</p>
+    <button onclick="gerarDica()" class="btn-dica">Gerar Dica</button>
+  </section>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
 ~~~~
 
 #EXPLICAÇÃO DO CÓDIGO
@@ -462,13 +507,7 @@ body {
   transition: all 0.3s ease;
 }
 
-/* Tema alternativo */
-.dark {
-  background: #ffffff;
-  color: #0a0a14;
-}
 
-/* Header */
 header {
   position: fixed;
   top: 0;
@@ -503,39 +542,22 @@ nav {
 }
 
 .nav-links a {
-  color: #d0d0ff;
+  color: white;
   text-decoration: none;
 }
 
-.btn-entrar {
+.btn-entrar, .btn-dica, .btn-comecar, .btn-tema{
   background: #00ff96;
   color: black;
   padding: 0.6rem 1.5rem;
   border-radius: 50px;
   border: none;
   cursor: pointer;
+
 }
 
-.btn-comecar {
-    background: #00ff96;
-    color: black;
-    padding: 0.6rem 1.5rem;
-    border-radius: 50px;
-    border: none;
-    cursor: pointer;
-  }
 
-.btn-dica {
-    background: #00ff96;
-    color: black;
-    padding: 0.6rem 1.5rem;
-    border-radius: 50px;
-    border: none;
-    cursor: pointer;
-  }
-  
-
-/* Hero */
+/*imagem usada no nosso header*/
 .hero {
   height: 100vh;
   background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.85)),
@@ -555,7 +577,6 @@ nav {
   color: #00ff96;
 }
 
-/* Quem Somos */
 .quem-somos {
   padding: 120px 5%;
   background: #0a0a14;
@@ -567,20 +588,17 @@ nav {
   gap: 3rem;
 }
 
-.images-side img {
+.images-side {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+.images-side img{
   width: 100%;
-  border-radius: 10px;
+  height: 200px;
+  object-fit: cover;
 }
-.btn-tema{
-    background: #00ff96;
-    color: black;
-    padding: 0.6rem 1.5rem;
-    border-radius: 50px;
-    border: none;
-    cursor: pointer;
 
-}
-/* Dicas */
 .dicas {
   padding: 80px 5%;
   text-align: center;
@@ -597,7 +615,6 @@ nav {
   margin-bottom: 20px;
 }
 
-/* Responsivo */
 @media (max-width: 900px) {
   .content-wrapper {
     grid-template-columns: 1fr;
@@ -609,7 +626,6 @@ nav {
     color: white;
   }
   
-  /* textos */
   .light .text-side h3{
     color:#00ff96
   }
@@ -619,26 +635,32 @@ nav {
     color: black;
   }
   
-  /* header */
   .light header {
     background: rgba(255, 255, 255, 0.9);
   }
 
   .light .quem-somos{
     background: rgba(255, 255, 255, 0.9);
+    color: black;
   }
+.light .dicas {
+  background-color: #00ff96;
+  color: black;
+}
 
-  
-  /* botão */
-  .light .btn-entrar {
+  .light .btn-dica,  .light .btn-entrar, .light .btn-comecar{
     background: black;
     color:white ;
   }
 
+  .light .logo, .light .text-side,.light .dicas h2 {
+    color: #0a0a14;
+  }
   JS
 
-  function mudarTema() {
+ function mudarTema() {
     document.body.classList.toggle("light");
+
   }
   
   const dicas = [
