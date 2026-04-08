@@ -9,14 +9,20 @@ Temos o celular na mão o tempo todo, acessamos qualquer informação em segundo
 Enquanto isso, o futuro financeiro do Brasil está nas nossas mãos. É a nossa geração que vai construir riqueza, tomar as grandes decisões de investimento e definir o cenário econômico das próximas décadas. No entanto, a maioria ainda não recebeu as ferramentas certas para dominar o próprio dinheiro.
 A educação financeira tradicional no Brasil foca em adultos já endividados, com hipoteca, filhos e carreira consolidada. E nós? 
 A vida de estudante é um equilíbrio constante: provas, prazos, estágios e a eterna luta para fazer o dinheiro durar até o dia 30. Surgem as faturas do cartão, o aluguel da república e aquela dúvida cruel: “Dá pra ir no rolê ou o café da semana que vem está em risco?”.
+
+## Por que escolhemos esse tema?
+Ao formarmos o grupo, queríamos escolher um tema com o qual nos identificássemos profundamente e no qual conhecêssemos de perto as dificuldades envolvidas, justamente por fazermos parte do público-alvo. Dentre os diversos temas propostos como reciclagem e ajuda ao meio ambiente, optamos pela inserção do mercado financeiro e dos investimentos no universo dos jovens universitários. Foi a partir dessa escolha que nasceu o Unicash.
+
 ## O problema que resolvemos
 Para muitos jovens, a faculdade é o primeiro contato real com a gestão financeira da própria vida. Sem orientação, a liberdade da juventude facilmente vira endividamento precoce. No Brasil, apenas 3 em cada 10 jovens entre 18 e 24 anos se consideram financeiramente alfabetizados. A educação financeira praticamente não existe na grade curricular das universidades, e o resultado é uma geração entrando no mercado de trabalho já com hábitos ruins, score de crédito baixo e oportunidades de investimento perdidas.
+
 ## Nosso propósito
 O EduTech nasceu para quebrar essa barreira e democratizar o acesso à inteligência financeira. Não queremos apenas explicar o que é juro composto — queremos que você aprenda a usar ele a seu favor desde os primeiros R$ 100.
 Focamos no público universitário por três motivos principais:
 Redução de estresse e saúde mental: Um estudante preocupado com boletos não consegue focar nas aulas. Equilíbrio financeiro traz tranquilidade.
 Autonomia real: Tomar decisões baseadas em planejamento, e não em impulso ou falta de opção.
 Futuro sustentável: Quem aprende a fazer 100 reais renderem hoje saberá fazer 10 mil, 100 mil e 1 milhão renderem amanhã. O hábito começa agora.
+
 ## Por que esse tema é tão poderoso?
 Porque estamos vivendo uma oportunidade histórica. Nunca uma geração teve tanto acesso à tecnologia e à informação quanto a nossa. O problema não é mais falta de acesso, mas falta de conteúdo certo, na linguagem certa e no momento certo da vida.
 O EduTech transforma essa realidade com conteúdos práticos, ferramentas simples e uma comunidade de jovens que estão construindo riqueza juntos, sem complicação e sem gatekeeping.
