@@ -4,16 +4,29 @@ Valério dos Santos Cavalcanti RA: 10410778
 Felipe Souza RA: 10322325
 
 # POR QUE O EduTech É FEITO ESPECIALMENTE PARA JOVENS?
-Porque o futuro financeiro do Brasil está nas mãos de quem tem entre 18 e 25 anos hoje - e a maioria ainda não recebeu as ferramentas certas para dominá-lo.
-Quando falamos de educação financeira no Brasil, a conversa geralmente é direcionada a adultos que já têm dívidas acumuladas, hipoteca, filhos ou carreira consolidada. Mas e quem está começando agora? Quem está na faculdade, recebendo mesada ou primeiro salário de estágio, lidando com cartão de crédito pela primeira vez, morando na república ou tentando sair da casa dos pais?
-A vida de estudante é uma constante equilibrista: de um lado, os prazos, as provas e os estágios; do outro, o desafio de fazer o dinheiro durar até o dia 30. Sabemos que a educação financeira raramente faz parte da grade curricular, mas ela é a ferramenta que decide se você vai terminar o semestre no azul ou no sufoco.
+Por que o EduTech é feito especialmente para jovens?
+O futuro financeiro do Brasil está nas mãos de quem tem entre 18 e 25 anos hoje. É essa geração que vai construir riqueza, tomar as grandes decisões de investimento e definir o cenário econômico das próximas décadas. No entanto, a maioria ainda não recebeu as ferramentas certas para dominar o próprio dinheiro.
+Enquanto a educação financeira tradicional no Brasil foca em adultos endividados, com hipoteca, filhos e carreira consolidada, nós olhamos para quem está começando agora: o universitário que recebe mesada ou primeiro salário de estágio, que usa cartão de crédito pela primeira vez, divide república ou planeja sair da casa dos pais.
+A vida de estudante é um equilíbrio constante: provas, estágios, prazos e a eterna dúvida de como fazer o dinheiro durar até o fim do mês. Faturas chegam, o rolê chama, o café da manhã corre risco. Sem orientação, a liberdade da faculdade pode facilmente virar dívida.
 O problema que resolvemos
-Para muitos, a faculdade é o primeiro contato real com a gestão da própria vida financeira. É o momento em que surgem as faturas de cartão, o aluguel da república e aquela dúvida cruel: "Dá para ir no rolê ou o café de amanhã está em risco?". Sem orientação, é fácil transformar a liberdade em dívida.
+Para muitos jovens, a faculdade é o primeiro contato real com a gestão financeira da própria vida. Surge o aluguel da república, as parcelas do cartão, o financiamento do celular e a tentação de gastar por impulso. Sem conhecimento básico, é comum cair em armadilhas como juros altos, score de crédito baixo e endividamento precoce.
+No Brasil, apenas 3 em cada 10 jovens entre 18 e 24 anos se consideram financeiramente alfabetizados, segundo pesquisas recentes. A educação financeira praticamente não existe na grade curricular da maioria das universidades. Resultado? Geração entrando no mercado de trabalho já com dívidas e hábitos ruins.
 Nosso propósito
-Nosso projeto nasceu para democratizar o acesso à inteligência financeira. Não queremos apenas que você saiba o que é um juro composto — queremos que você saiba como usá-lo a seu favor. Visamos ajudar o público universitário por três motivos principais:
-Redução do Estresse: Um estudante preocupado com boletos não consegue focar na aula. Equilíbrio financeiro é saúde mental.
-Autonomia Real: Queremos que você tome decisões baseadas em planos, não em impulsos ou falta de opção.
-Futuro Sustentável: Aprender a lidar com 100 reais hoje é o que vai te ensinar a gerir 10 mil amanhã. O hábito começa agora.
+O EduTech nasceu para democratizar o acesso à inteligência financeira e incluir de verdade os jovens no mercado financeiro brasileiro. Não ensinamos apenas teoria: mostramos na prática como usar o dinheiro a seu favor desde o início.
+Por que focamos no público universitário?
+Redução de estresse e melhor saúde mental: um estudante preocupado com boletos não rende nas aulas. Equilíbrio financeiro traz tranquilidade e foco.
+Autonomia real: tomamos decisões baseadas em planejamento, não em impulso ou desespero.
+Futuro sustentável: quem aprende a fazer 100 reais renderem hoje saberá fazer 10 mil, 100 mil e 1 milhão renderem amanhã. O hábito se constrói agora.
+Nosso objetivo é transformar a relação dos jovens com o dinheiro: de fonte de ansiedade e limitações para um degrau poderoso rumo aos sonhos — seja viajar, empreender, investir no mercado de ações, comprar o primeiro imóvel ou conquistar independência financeira.
+O que você vai encontrar no EduTech
+Cursos e conteúdos práticos sobre orçamento, cartão de crédito, investimentos, juros compostos, renda extra e entrada no mercado financeiro.
+Ferramentas simples e interativas para controlar gastos, simular investimentos e acompanhar seu score de crédito.
+Comunidade de jovens que estão construindo riqueza juntos.
+Linguagem direta, sem enrolação, feita por quem entende a realidade da república, do estágio e do “dinheiro que some no fim do mês”.
+O futuro financeiro do Brasil começa na sua geração.
+Não espere chegar aos 30 anos endividado para aprender sobre dinheiro. Comece agora, enquanto as decisões ainda são pequenas e os erros custam pouco.
+Seja parte dessa transformação.
+Cadastre-se gratuitamente e dê o primeiro passo rumo à sua liberdade financeira.
 Nossa missão é transformar a relação do estudante com o dinheiro: de uma fonte de ansiedade para um degrau rumo aos seus sonhos.
 
 ![Descrição da imagem](site.png)
