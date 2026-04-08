@@ -648,4 +648,23 @@ nav {
   Adicionamos a mudança de tema do site através da função "mudar tema", oferencendo ao usuário a opção de ver o site no modo light, junto com mudança no css.
   Além disso, incluimos um gerados de dicas financeiras utilizando a função function gerarDica() para que o usuário se sinta motivado durante sua experiência no site.
 
+Resumo do código:
+
+Este projeto consiste em uma plataforma institucional focada em educação financeira. O desenvolvimento foi dividido em três camadas fundamentais:
+​1. Estrutura de Conteúdo (HTML5)
+​O site foi construído utilizando HTML5 semântico, priorizando a acessibilidade e a organização hierárquica. As principais seções incluem:
+​Cabeçalho de Navegação: Menu fixo com links de ancoragem e chamadas para ação (CTA).
+​Seção Hero: Destaque principal com proposta de valor clara e fundo visual de alto impacto.
+​Seção Institucional: Divisão em grid para apresentar a missão da empresa e galeria visual.
+​Módulo de Interação: Área dedicada a dicas dinâmicas para o usuário.
+​2. Design e Identidade Visual (CSS3)
+​A estética do projeto segue o estilo Modern Dark Mode, comum em interfaces de tecnologia e finanças.
+​Layout Responsivo: Implementação de Flexbox e CSS Grid, garantindo que a interface se adapte perfeitamente a dispositivos móveis e desktops.
+​Estilização Avançada: Uso de filtros de desfoque (backdrop-filter) para o menu e efeitos de transição suave em botões e imagens.
+​Temas Customizáveis: Arquitetura de classes preparada para alternância de cores (Light/Dark mode) sem necessidade de recarregar a página.
+​3. Dinâmica e Funcionalidade (JavaScript)
+​A lógica de programação foi aplicada para tornar a experiência do usuário menos estática:
+​Gerenciador de Temas: Manipulação do DOM para alternar a classe de estilo do corpo da página em tempo real.
+​Motor de Conteúdo Aleatório: Algoritmo que seleciona dicas financeiras a partir de um conjunto de dados (array), garantindo que o usuário receba informações diferentes a cada interação.
+
 
