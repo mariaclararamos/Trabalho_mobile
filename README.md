@@ -680,3 +680,4 @@ nav {
   Além disso, incluimos um gerados de dicas financeiras utilizando a função function gerarDica() para que o usuário se sinta motivado durante sua experiência no site.
 
 
+**TUTORIAL REACT**
